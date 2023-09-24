@@ -1,0 +1,90 @@
+body {
+    max-width: 768px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    min-width: 375px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.d {
+    text-align: center;
+    margin: 1em;
+    padding: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 0.5em;
+}
+
+div.d>button {
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background: transparent;
+}
+
+div.d>button>a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+form {
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+form>input {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid;
+    margin: 0.3em;
+    text-align: center;
+}
+
+form>button {
+    border: 2px solid;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 8em;
+}
+
+div.history {
+    box-shadow: rgb(255 255 255 / 25%) 0px 54px 55px, rgb(255 255 255 / 12%) 0px -12px 30px, rgb(255 255 255 / 12%) 0px 4px 6px, rgb(255 255 255 / 17%) 0px 12px 13px, rgb(255 255 255 / 9%) 0px -3px 5px;
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.9em;
+    background: transparent;
+}
+
+div.history>h1 {
+    text-align: center;
+    margin: 0.3em;
+}
+
+div.history>h3 {
+    margin: 0.5em;
+}
+
+div.history>p {
+    padding: 0.2em;
+}
+div#preComment{
+    margin-bottom: 0.5em;
+}
+div.comment{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+div.comment > h3{
+    margin: 0.5em;
+}
+div.comment > p{
+    margin: 0.5em;
+}
