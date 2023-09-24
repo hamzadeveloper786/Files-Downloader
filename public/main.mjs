@@ -36,4 +36,4 @@ document.querySelector("#commentPost")
         }
         setTimeout(() => {
             getAllComments();
-        }, 0)
+        }, 1000);
